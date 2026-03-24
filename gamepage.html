@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our First Game</title>
+</head>
+<body style="background-color: darkgreen; margin: auto; overflow-x: hidden;"">
+    <header>
+        <h1 style="color: yellow; text-align: center; border-bottom: 2px dotted; padding: 1rem; width: 70%; margin: 2rem auto;">Legend of Zelda! <br> (but not really)</h1>
+    </header>
+    <main>
+        <div style="text-align: center;">
+            <h2 style="width: 40%; margin: auto;">Oh no!  You've been thrust into a boss fight right off the bat!</h2>
+            <img src="images/ganon.png" style="margin-top: 1rem; padding: 1rem;" alt="ganon">
+            <p style="border-bottom: 4px solid red; width: 50%; margin: auto;">Ganon</p>
+        </div>
+        <h3 style="margin: 3rem; text-align: center;"> What will you do?</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; margin: 2rem auto;">
+            <img src="images/link.png" style="margin: auto;" alt="link">
+            <ol style="border: 2px dashed yellow; width: 70%; padding: 1rem; list-style-position: inside; color: yellow">
+                <li><button style="background-color:greenyellow; font-family: serif;">Use Sword</button></li>
+                <li><button style="background-color:greenyellow; font-family: serif;">Use Slingshot</button></li>
+                <li>
+                    <label id="potion" for="potion-select">Potion</label>
+                    <select id="potion-select" style="background-color:greenyellow; font-family: serif;">
+                        <option value="strength">Strength</option>
+                        <option value="health">Health</option>
+                    </select>
+                </li>
+                <li><button style="background-color:greenyellow; font-family: serif;">Run</button></li>
+            </ol>
+        </div>
+    </main>
+</body>
+</html>
